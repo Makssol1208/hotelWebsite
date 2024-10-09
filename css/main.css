@@ -15,11 +15,57 @@ body {
     font-weight: 400;
 }
 
+/* BASE */
+
+.header-btn {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    padding: 22px 33px 27px 78px;
+    border-radius: 10px;
+
+    color: var(--color-white);
+    background-color: var(--btn-color);
+    animation: float 6s ease-in infinite;
+}
+
+.header-btn::before {
+    display: block;
+    content: '';
+    position: absolute;
+    left: 32px;
+    top: 36px;
+    width: 28px;
+    height: 25px;
+    transform: translateY(-50%);
+    background-image: url('./../img/book_now.svg');
+    background-size: contain;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+
+		transform: translatey(-25px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
 /* HEADER */
 
 .header {
     position: relative;
     min-height: 1080px;
+    margin-bottom: 82px;
     background-image: linear-gradient(var(--bg-color), var(--bg-color)), url('./../img/home/bg_home.webp');
     background-size: cover;
     background-repeat: no-repeat;
@@ -119,20 +165,4 @@ body {
     line-height: 1.2;
     font-size: 25px;
     letter-spacing: 0.1em;
-}
-
-.btn {
-    display: block;
-    max-width: 268px;
-    height: 78px;
-    text-align: center;
-    font-size: 25px;
-    font-weight: 700;
-
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
-
-    color: var(--color-white);
-    background-color: var(--btn-color);
 }
