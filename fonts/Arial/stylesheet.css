@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Arial';
+    src: url('ArialMT.eot');
+    src: local('Arial'), local('ArialMT'),
+        url('ArialMT.eot?#iefix') format('embedded-opentype'),
+        url('ArialMT.woff2') format('woff2'),
+        url('ArialMT.woff') format('woff'),
+        url('ArialMT.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial Narrow';
+    src: url('ArialNarrow.eot');
+    src: local('Arial Narrow'), local('ArialNarrow'),
+        url('ArialNarrow.eot?#iefix') format('embedded-opentype'),
+        url('ArialNarrow.woff2') format('woff2'),
+        url('ArialNarrow.woff') format('woff'),
+        url('ArialNarrow.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Adobe Garamond Pro';
+    src: url('AGaramondPro-Bold.eot');
+    src: local('Adobe Garamond Pro Bold'), local('AGaramondPro-Bold'),
+        url('AGaramondPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('AGaramondPro-Bold.woff2') format('woff2'),
+        url('AGaramondPro-Bold.woff') format('woff'),
+        url('AGaramondPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
