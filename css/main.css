@@ -298,6 +298,15 @@ body {
     background-color: #e0ba73dc;
 }
 
+.img-wrapper {
+    transition: box-shadow 0.2s ease, transform 0.2s ease-in;
+}
+
+.img-wrapper:hover {
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    transform: translateY(-6px);
+}
+
 .img-wrapper img {
     width: 866px;
     height: 539px;
