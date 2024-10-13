@@ -110,6 +110,18 @@ body {
     background-repeat: no-repeat;
 }
 
+.facilities {
+    background-image: linear-gradient(var(--bg-color), var(--bg-color)), url('./../img/facilities/bg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.rooms {
+    background-image: linear-gradient(var(--bg-color), var(--bg-color)), url('./../img/rooms/bg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .container-header {
     max-width: 1530px;
     margin: 0 auto;
@@ -299,12 +311,12 @@ body {
 }
 
 .img-wrapper {
-    transition: box-shadow 0.2s ease, transform 0.2s ease-in;
+    transition: box-shadow 0.3s ease-in, transform 0.3s ease-in;
 }
 
 .img-wrapper:hover {
     box-shadow: 0 5px 10px rgba(0,0,0,0.3);
-    transform: translateY(-6px);
+    transform: translateY(-10px);
 }
 
 .img-wrapper img {
