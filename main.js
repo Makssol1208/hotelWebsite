@@ -4,7 +4,8 @@ owl.owlCarousel({
     center: true,
     loop: true,
     items: 1,
-    autoplay: 150
+    autoplay: true,
+    autoplaySpeed: 1000
 });
 
 $('.carousel-btn--next').click(function() {
