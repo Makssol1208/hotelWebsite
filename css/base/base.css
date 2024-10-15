@@ -1,0 +1,39 @@
+:root {
+    --main-style: 'Montserrat', sans-serif;
+    --roboto-font: 'Roboto', sans-serif;
+    --adobe-font: 'Adobe Garamond Pro', sans-serif;
+    --arial-font: 'Arial', sans-serif;
+
+    --color-white: #fff;
+    --bg-color: rgba(20, 39, 74, 0.5);
+    --blue-text: #14274A;
+    --btn-color: #E0B973;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: var(--main-style);
+    font-weight: 400;
+}
+
+.none {
+    display: none;
+}
+
+.btn {
+    display: block;
+    width: 236px;
+    padding: 20px 65px;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    border-radius: 10px;
+    background-color: var(--btn-color);
+    color: var(--color-white);
+}
+
+.btn:hover {
+    background-color: #e0ba73dc;
+}
