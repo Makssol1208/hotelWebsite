@@ -8,10 +8,11 @@ owl.owlCarousel({
     autoplaySpeed: 1000
 });
 
-$('.carousel-btn--next').click(function() {
+$('.carousel-btn--next').click(function () {
     owl.trigger('next.owl.carousel');
-})
+});
 
-$('.carousel-btn--prev').click(function() {
+$('.carousel-btn--prev').click(function () {
     owl.trigger('prev.owl.carousel');
-})
+});
+

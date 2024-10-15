@@ -5,12 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel Website</title>
+    <!-- Styles -->
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/base/reset.css">
+    <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:regular,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular">
     <link rel="stylesheet" href="./fonts/AdobeGarmond/stylesheet.css">
     <link rel="stylesheet" href="./fonts/Arial/stylesheet.css">
+    <!-- ./Fonts -->
+    <!-- Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -23,10 +33,10 @@
                     </a>
                     <div class="nav">
                         <ul>
-                            <li><a href="./index.html">Home</a></li>
-                            <li><a href="./facilities.html">Facilities</a></li>
+                            <li><a href="./index.html" class="transition">Home</a></li>
+                            <li><a href="./facilities.html" class="transition">Facilities</a></li>
                             <li><a href="#Rooms">Rooms</a></li>
-                            <li><a href="#Contact-us">Contact-us</a></li>
+                            <li><a href="#Contact-us" class="transition">Contact-us</a></li>
                         </ul>
                     </div>
                 </div>
@@ -49,7 +59,40 @@
             </div>
         </header>
 
-       
+        <!-- SLIDER -->
+
+        <section class="slider">
+            <div class="owl-carousel">
+                <div class="carousel-wrapper">
+                    <h3 class="carousel-title">Testimonials</h3>
+                    <p class="carousel-quote">"Calm, Serene, Retro – What a way to relax and enjoy"</p>
+                    <p class="carousel-user"> Mr. and Mrs. Baxter, UK</p>
+
+                    <div class="carousel-arrows">
+                        <button class="carousel-btn carousel-btn--prev">
+                            <img src="./img/arrow_left.svg" alt="Arrow left">
+                        </button>
+                        <button class="carousel-btn carousel-btn--next">
+                            <img src="./img/arrow_right.svg" alt="Arrow right">
+                        </button>
+                    </div>
+                </div>
+                <div class="carousel-wrapper">
+                    <h3 class="carousel-title">Testimonials</h3>
+                    <p class="carousel-quote">"Calm, Serene, Retro – Wonderful place to relax"</p>
+                    <p class="carousel-user"> Mrs. Claxton, USA</p>
+
+                    <div class="carousel-arrows">
+                        <button class="carousel-btn carousel-btn--prev">
+                            <img src="./img/arrow_left.svg" alt="Arrow left">
+                        </button>
+                        <button class="carousel-btn carousel-btn--next">
+                            <img src="./img/arrow_right.svg" alt="Arrow right">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- FOOTER -->
 
@@ -98,6 +141,14 @@
             </div>
         </footer>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="./js/main.js"></script>
+        <script src="./js/transition.js"></script>
 </body>
 
 </html>

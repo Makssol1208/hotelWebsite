@@ -5,12 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel Website</title>
+    <!-- Styles -->
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/base/reset.css">
+    <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:regular,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular">
     <link rel="stylesheet" href="./fonts/AdobeGarmond/stylesheet.css">
     <link rel="stylesheet" href="./fonts/Arial/stylesheet.css">
+    <!-- ./Fonts -->
+    <!-- Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -23,10 +33,10 @@
                     </a>
                     <div class="nav">
                         <ul>
-                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./index.html" class="transition">Home</a></li>
                             <li><a href="#!">Facilities</a></li>
-                            <li><a href="./rooms.html">Rooms</a></li>
-                            <li><a href="#Contact-us">Contact-us</a></li>
+                            <li><a href="./rooms.html" class="transition">Rooms</a></li>
+                            <li><a href="#Contact-us" class="transition">Contact-us</a></li>
                         </ul>
                     </div>
                 </div>
@@ -49,53 +59,96 @@
             </div>
         </header>
 
-<!-- FOOTER -->
+        <!-- SLIDER -->
 
-<footer class="footer">
-    <div class="footer-nav">
-        <div class="container-footer">
-            <div class="footer-menu">
-                <div class="footer-menu__contacts">
-                    <div class="footer-title">
-                        <h3>LUXURY</h3>
-                        <span>HOTELS</span>
-                    </div>
-                    <div class="footer-adress">
-                        <span>497 Evergreen Rd. Roseville, CA 95673</span>
-                        <span>+44 345 678 903</span>
-                        <span>luxury_hotels@gmail.com</span>
+        <section class="slider">
+            <div class="owl-carousel owl-theme">
+                <div class="carousel-wrapper">
+                    <h3 class="carousel-title">Testimonials</h3>
+                    <p class="carousel-quote">"Calm, Serene, Retro – What a way to relax and enjoy"</p>
+                    <p class="carousel-user"> Mr. and Mrs. Baxter, UK</p>
+
+                    <div class="carousel-arrows">
+                        <button class="carousel-btn carousel-btn--prev">
+                            <img src="./img/arrow_left.svg" alt="Arrow left">
+                        </button>
+                        <button class="carousel-btn carousel-btn--next">
+                            <img src="./img/arrow_right.svg" alt="Arrow right">
+                        </button>
                     </div>
                 </div>
-                <ul class="footer-menu__list">
-                    <li><a href="#!">About Us</a></li>
-                    <li><a href="#!">Contact</a></li>
-                    <li><a href="#!">Terms & Conditions</a></li>
-                </ul>
-                <div class="footer-socials">
-                    <div class="footer-socials__img">
-                        <img src="./img/facebook.png" alt="Facebook">
-                        <img src="./img/twitter.png" alt="Twitter">
-                        <img src="./img/instagram.png" alt="Instagram">
-                    </div>
-                    <div class="footer-socials__items">
-                        <a href="#!">Facebook</a>
-                        <a href="#!">Twitter</a>
-                        <a href="#!">Instagram</a>
-                    </div>
-                </div>
+                <div class="carousel-wrapper">
+                    <h3 class="carousel-title">Testimonials</h3>
+                    <p class="carousel-quote">"Calm, Serene, Retro – Wonderful place to relax"</p>
+                    <p class="carousel-user"> Mrs. Claxton, USA</p>
 
-                <div class="footer-mail">
-                    <p class="footer">Subscribe to our newsletter</p>
-                    <div class="footer-mail__input">
-                        <label for="email"><input type="text" id="email" placeholder="Email Address"></label>
-                        <button class="mail-btn">OK</button>
+                    <div class="carousel-arrows">
+                        <button class="carousel-btn carousel-btn--prev">
+                            <img src="./img/arrow_left.svg" alt="Arrow left">
+                        </button>
+                        <button class="carousel-btn carousel-btn--next">
+                            <img src="./img/arrow_right.svg" alt="Arrow right">
+                        </button>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <!-- FOOTER -->
+
+        <footer class="footer">
+            <div class="footer-nav">
+                <div class="container-footer">
+                    <div class="footer-menu">
+                        <div class="footer-menu__contacts">
+                            <div class="footer-title">
+                                <h3>LUXURY</h3>
+                                <span>HOTELS</span>
+                            </div>
+                            <div class="footer-adress">
+                                <span>497 Evergreen Rd. Roseville, CA 95673</span>
+                                <span>+44 345 678 903</span>
+                                <span>luxury_hotels@gmail.com</span>
+                            </div>
+                        </div>
+                        <ul class="footer-menu__list">
+                            <li><a href="#!">About Us</a></li>
+                            <li><a href="#!">Contact</a></li>
+                            <li><a href="#!">Terms & Conditions</a></li>
+                        </ul>
+                        <div class="footer-socials">
+                            <div class="footer-socials__img">
+                                <img src="./img/facebook.png" alt="Facebook">
+                                <img src="./img/twitter.png" alt="Twitter">
+                                <img src="./img/instagram.png" alt="Instagram">
+                            </div>
+                            <div class="footer-socials__items">
+                                <a href="#!">Facebook</a>
+                                <a href="#!">Twitter</a>
+                                <a href="#!">Instagram</a>
+                            </div>
+                        </div>
+
+                        <div class="footer-mail">
+                            <p class="footer">Subscribe to our newsletter</p>
+                            <div class="footer-mail__input">
+                                <label for="email"><input type="text" id="email" placeholder="Email Address"></label>
+                                <button class="mail-btn">OK</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
-</footer>
-    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="./js/main.js"></script>
+        <script src="./js/transition.js"></script>
 </body>
 
 </html>
