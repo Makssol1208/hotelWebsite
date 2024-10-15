@@ -1,3 +1,21 @@
+.footer {
+    position: relative;
+}
+
+.footer::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 146px;
+    height: 54px;
+    top: -54px;
+    right: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    background-color: var(--blue-text);
+}
+
 .footer-nav {
     background-color: var(--blue-text);
     color: var(--color-white);
@@ -43,7 +61,7 @@
     color: var(--color-white);
 }
 
-.footer-menu__list li + li {
+.footer-menu__list li+li {
     margin-top: 26px;
 }
 
@@ -55,10 +73,9 @@
     display: flex;
 }
 
-.footer-socials__images {
+.footer-socials__img {
     display: grid;
     justify-items: center;
-    gap: 15px;
 }
 
 .footer-socials__items {
@@ -67,4 +84,28 @@
 
 .footer-socials__items a {
     padding-left: 18px;
+}
+
+.footer-mail p {
+    padding-bottom: 29px;
+}
+
+.footer-mail__input input {
+    width: 280px;
+    padding: 15px 0 17px 26px;
+    border-radius: 5px;
+    outline: 2px solid var(--btn-color);
+}
+
+.footer-mail__input input::placeholder {
+    color: var(--color-white);
+    font-size: 16px;
+}
+
+.mail-btn {
+    font-weight: 600;
+    padding: 17px 29px 18px 26px;
+    background-color: var(--btn-color);
+    color: var(--blue-text);
+    border-radius: 5px;
 }

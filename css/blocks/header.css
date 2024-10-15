@@ -23,21 +23,17 @@
 .header-btn {
     position: relative;
     padding: 22px 33px 27px 78px;
-    max-width: 268px;
-    height: 78px;
     margin-bottom: 80px;
 
     font-size: 25px;
     font-weight: 700;
     text-align: center;
     border-radius: 10px;
-    transform: translateX(-50%);
 
     background-color: var(--btn-color);
     color: var(--color-white);
 
     transition: all 0.2s ease-in;
-    animation: float 4s ease-in infinite;
 }
 
 .header-btn::before {
@@ -57,20 +53,6 @@
     background-color: #e0ba73dc;
 }
 
-@keyframes float {
-    0% {
-        transform: translatey(0px);
-    }
-
-    50% {
-
-        transform: translatey(-25px);
-    }
-
-    100% {
-        transform: translatey(0px);
-    }
-}
 
 
 /* <-- Headers images --> */
@@ -233,4 +215,20 @@
     height: 60px;
     margin-bottom: 38px;
     cursor: pointer;
+}
+
+.header-bottom img {
+    animation: animate 2s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+		transform: translate(0);
+	}
+	20% {
+		transform: translateY(15px);
+	}
+	40% {
+		transform: translate(0);
+	}
 }

@@ -25,7 +25,7 @@
 
 <body>
     <div class="wrapper">
-        <header class="header ">
+        <header class="header">
             <div class="container-header">
                 <div class="header-nav">
                     <a href="#!">
@@ -52,15 +52,17 @@
                 <div class="header-bottom">
                     <a href="#!" class="header-btn">BOOK NOW</a>
                     <h2>Sroll</h2>
-                    <img src="./img/arrow_down.svg" alt="Arrow Down">
+                    <a href="#content">
+                        <img src="./img/arrow_down.svg" alt="Arrow Down">
+                    </a>
                 </div>
             </div>
         </header>
 
-        <main class="main ">
+        <main class="main">
             <h3 class="main-title">All our room types are including complementary breakfast</h3>
             <div class="conatiner-home">
-                <div class="main-content">
+                <div class="main-content" id="content">
                     <div class="main-content__desc">
                         <h2>Luxury redefined</h2>
                         <div class="main-content__text">
@@ -92,41 +94,46 @@
                         <img src="./img/home/beach.webp" alt="Beach">
                     </div>
                 </div>
-                 <!-- SLIDER -->
-            <section class="slider">
-                <div class="owl-carousel">
-                    <div class="carousel-wrapper">
-                        <h3 class="carousel-title">Testimonials</h3>
-                        <p class="carousel-quote">"Calm, Serene, Retro – What a way to relax and enjoy"</p>
-                        <p class="carousel-user"> Mr. and Mrs. Baxter, UK</p>
-
-                        <div class="carousel-arrows">
-                            <button class="carousel-btn carousel-btn--prev">
-                                <img src="./img/arrow_left.svg" alt="Arrow left">
-                            </button>
-                            <button class="carousel-btn carousel-btn--next">
-                                <img src="./img/arrow_right.svg" alt="Arrow right">
-                            </button>
-                        </div>
-                    </div>
-                    <div class="carousel-wrapper">
-                        <h3 class="carousel-title">Testimonials</h3>
-                        <p class="carousel-quote">"Calm, Serene, Retro – Wonderful place to relax"</p>
-                        <p class="carousel-user"> Mrs. Claxton, USA</p>
-
-                        <div class="carousel-arrows">
-                            <button class="carousel-btn carousel-btn--prev">
-                                <img src="./img/arrow_left.svg" alt="Arrow left">
-                            </button>
-                            <button class="carousel-btn carousel-btn--next">
-                                <img src="./img/arrow_right.svg" alt="Arrow right">
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </section>
             </div>
         </main>
+
+        <!-- SLIDER -->
+
+        <section class="slider">
+            <div class="owl-carousel">
+                <div class="carousel-wrapper">
+                    <h3 class="carousel-title">Testimonials</h3>
+                    <p class="carousel-quote">"Calm, Serene, Retro – What a way to relax and enjoy"</p>
+                    <p class="carousel-user"> Mr. and Mrs. Baxter, UK</p>
+
+                    <div class="carousel-arrows">
+                        <button class="carousel-btn carousel-btn--prev">
+                            <img src="./img/arrow_left.svg" alt="Arrow left">
+                        </button>
+                        <button class="carousel-btn carousel-btn--next">
+                            <img src="./img/arrow_right.svg" alt="Arrow right">
+                        </button>
+                    </div>
+                </div>
+                <div class="carousel-wrapper">
+                    <h3 class="carousel-title">Testimonials</h3>
+                    <p class="carousel-quote">"Calm, Serene, Retro – Wonderful place to relax"</p>
+                    <p class="carousel-user"> Mrs. Claxton, USA</p>
+
+                    <div class="carousel-arrows">
+                        <button class="carousel-btn carousel-btn--prev">
+                            <img src="./img/arrow_left.svg" alt="Arrow left">
+                        </button>
+                        <button class="carousel-btn carousel-btn--next">
+                            <img src="./img/arrow_right.svg" alt="Arrow right">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+
         <footer class="footer">
             <div class="footer-nav">
                 <div class="container-footer">
@@ -148,7 +155,7 @@
                             <li><a href="#!">Terms & Conditions</a></li>
                         </ul>
                         <div class="footer-socials">
-                            <div class="footer-socials__images">
+                            <div class="footer-socials__img">
                                 <img src="./img/facebook.png" alt="Facebook">
                                 <img src="./img/twitter.png" alt="Twitter">
                                 <img src="./img/instagram.png" alt="Instagram">
@@ -161,9 +168,9 @@
                         </div>
 
                         <div class="footer-mail">
-                            <p class="footer-mail__title">Subscribe to our newsletter</p>
+                            <p class="footer">Subscribe to our newsletter</p>
                             <div class="footer-mail__input">
-                                <input type="text" placeholder="Email Address">
+                                <label for="email"><input type="text" id="email" placeholder="Email Address"></label>
                                 <button class="mail-btn">OK</button>
                             </div>
                         </div>
