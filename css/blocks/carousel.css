@@ -42,6 +42,6 @@
 }
 
 .carousel-btn img {
-    width: 12px;
-    height: 19px;
+    display: block !important;
+    width: 30% !important;
 }
