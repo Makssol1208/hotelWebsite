@@ -61,3 +61,16 @@ const modalController = () => {
 };
 
 modalController();
+
+// Scroll to Top
+
+const goTopBtn = document.querySelector('.go-top');
+
+goTopBtn.addEventListener('click', goTop);
+
+const goTop = () => {
+    if (window.scrollX > 0) {
+        window.scrollBy(0, -75);
+        setTimeout(goTop, 0);
+    }
+}
