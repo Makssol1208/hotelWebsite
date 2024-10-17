@@ -22,11 +22,17 @@ body {
 
 .stt {
     position: fixed;
-    width: 50px;
+    width: 10px;
     height: 50px;
     visibility: hidden;
     opacity: 0;
-    border: 1px solid #000;
+    border: 1px solid #808080;
+    transition: 0.3s ease-in-out;
+}
+
+.stt__active {
+    visibility: visible;
+    opacity: 0.5;
 }
 
 .none {
