@@ -41,14 +41,13 @@ const modalController = () => {
 
     const closeModal = event => {
         const target = event.target;
-
-        if (target === modal || target.closest('.modal__close')) {
+        if (target === modal || target.closest('.modal__close') || target.closest('.modal__send') ) {
             modal.style.opacity = 0;
-        }
 
-        setTimeout(() => {
-            modal.style.visibility = 'hidden';
-        }, 300);
+            setTimeout(() => {
+                modal.style.visibility = 'hidden';
+            }, 300);
+        }
     }
 
     const modalOpen = () => {
@@ -61,16 +60,3 @@ const modalController = () => {
 };
 
 modalController();
-
-// Scroll to Top
-
-const goTopBtn = document.querySelector('.go-top');
-
-goTopBtn.addEventListener('click', goTop);
-
-const goTop = () => {
-    if (window.scrollX > 0) {
-        window.scrollBy(0, -75);
-        setTimeout(goTop, 0);
-    }
-}
