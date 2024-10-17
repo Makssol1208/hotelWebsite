@@ -1,0 +1,37 @@
+.main-rooms {
+    color: var(--blue-text);
+}
+
+.rooms__title {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    margin-bottom: 82px;
+}
+
+.rooms__title h3 {
+    font-family: var(--adobe-font);
+    font-weight: 700;
+    font-size: 60px;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+.rooms__title p {
+    font-size: 25px;
+    text-align: center;
+}
+
+/* Carousel */
+
+.room__wrapper {
+    max-width: 1602px !important;
+    height: 1302px !important;
+}
+
+.room__slider-img {
+    width: 100% !important;
+    height: 926px !important;
+}
+
+/* ./Carousel */
