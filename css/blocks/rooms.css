@@ -1,4 +1,8 @@
 .main-rooms {
+    max-width: 1602px;
+    min-height: 1302px;
+    margin: 0 auto;
+    
     color: var(--blue-text);
 }
 
@@ -10,6 +14,7 @@
 }
 
 .rooms__title h3 {
+    margin-bottom: 29px;
     font-family: var(--adobe-font);
     font-weight: 700;
     font-size: 60px;
@@ -18,20 +23,47 @@
 }
 
 .rooms__title p {
-    font-size: 25px;
+    font-size: 23px;
+    line-height: 1.3;
     text-align: center;
 }
 
 /* Carousel */
 
 .room__wrapper {
-    max-width: 1602px !important;
     height: 1302px !important;
+    outline: 2px solid var(--blue-text);
+    border-radius: 8px;
 }
 
 .room__slider-img {
-    width: 100% !important;
+    position: relative;
     height: 926px !important;
+    border-radius: 8px;
 }
+
+.owl-dots {
+    display: block !important;
+    position: absolute;
+    left: 50%;
+    bottom: 37px;
+    transform: translateX(-50%);
+}
+
+.owl-dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #fff !important;
+    
+    &.owl-dot.active {
+        background-color: #fff;
+    }
+}
+
+.owl-dot + .owl-dot {
+    margin-left: 20px;
+}
+
 
 /* ./Carousel */

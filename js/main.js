@@ -1,20 +1,39 @@
-const owl = $('.owl-carousel');
+// Carousel
 
-owl.owlCarousel({
+const slideOne = $('.slide-one');
+const slideTwo = $('.slide-two');
+
+slideOne.owlCarousel({
     center: true,
     loop: true,
+    dots: false,
     items: 1,
     autoplay: true,
-    autoplaySpeed: 1000
+    autoplaySpeed: 1000,
+    navContainer: '.room__wrapper .slide-one-nav',
+    dots: true,
+});
+
+slideTwo.owlCarousel({
+    center: true,
+    loop: true,
+    dots: false,
+    items: 1,
+    autoplay: true,
+    autoplaySpeed: 1000,
+    navContainer: '.slider .slide-two-nav',
+    dots: false,
 });
 
 $('.carousel-btn--next').click(function () {
-    owl.trigger('next.owl.carousel');
+    slideTwo.trigger('next.owl.carousel');
 });
 
 $('.carousel-btn--prev').click(function () {
-    owl.trigger('prev.owl.carousel');
+    slideTwo.trigger('prev.owl.carousel');
 });
+
+// ScrollReveal
 
 ScrollReveal({
     reset: true,
@@ -28,6 +47,7 @@ ScrollReveal().reveal('.hero__main', { delay: 500, origin: "left" });
 ScrollReveal().reveal('.hero__bottom, .hero__text', { delay: 600, origin: "left" });
 
 // Modal
+
 const modalController = () => {
     const modal = document.querySelector('.booking-modal');
     const bookBtn = document.querySelector('.header-btn');
@@ -41,7 +61,7 @@ const modalController = () => {
 
     const closeModal = event => {
         const target = event.target;
-        if (target === modal || target.closest('.modal__close') || target.closest('.modal__send') ) {
+        if (target === modal || target.closest('.modal__close') || target.closest('.modal__send')) {
             modal.style.opacity = 0;
 
             setTimeout(() => {
