@@ -2,8 +2,18 @@
     max-width: 1602px;
     min-height: 1302px;
     margin: 0 auto;
-    
+
     color: var(--blue-text);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 81px;
+    max-width: 1602px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .rooms__title {
@@ -31,15 +41,16 @@
 /* Carousel */
 
 .room__wrapper {
+    display: flex;
+    flex-direction: column;
     height: 1302px !important;
     outline: 2px solid var(--blue-text);
-    border-radius: 8px;
+    border-radius: 0 0 8px 8px;
 }
 
 .room__slider-img {
     position: relative;
     height: 926px !important;
-    border-radius: 8px;
 }
 
 .owl-dots {
@@ -55,15 +66,70 @@
     height: 20px;
     border-radius: 50%;
     border: 2px solid #fff !important;
-    
+
     &.owl-dot.active {
         background-color: #fff;
     }
 }
 
-.owl-dot + .owl-dot {
+.owl-dot+.owl-dot {
     margin-left: 20px;
 }
 
-
 /* ./Carousel */
+
+.room_variant {
+    background-color: var(--blue-text);
+}
+
+.room_variant h1 {
+    padding-top: 41px;
+    padding-bottom: 41px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 60px;
+    color: var(--color-white);
+}
+
+.room_bottom-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 78px 164px;
+}
+
+.left__block {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.left__block img {
+    width: 51px;
+    min-height: 51px;
+    cursor: pointer;
+}
+
+.left__block h3 {
+    font-weight: 700;
+    font-size: 25px;
+    color: var(--blue-text);
+}
+
+.btn-price {
+    display: block;
+    padding: 25px 44px;
+
+    font-weight: 700;
+    font-size: 25px;
+
+    border-radius: 10px;
+    color: var(--color-white);
+    background-color: var(--btn-color);
+    transition: all .2s ease-in;
+}
+
+.btn-price:hover {
+    background-color: #e0ba73dc;
+}

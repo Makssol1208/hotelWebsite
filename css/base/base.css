@@ -48,15 +48,9 @@ body {
     border-radius: 10px;
     background-color: var(--btn-color);
     color: var(--color-white);
+    transition: all .2s ease-in;
 }
 
 .btn:hover {
     background-color: #e0ba73dc;
-}
-
-.container {
-    max-width: 1602px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
 }
