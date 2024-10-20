@@ -1,0 +1,40 @@
+.header__contact {
+    min-height: 465px;
+    margin-bottom: 260px;
+    background-color: var(--blue-text);
+}
+
+.header-nav__contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 47px;
+}
+
+.contact-main {
+    margin-bottom: 513px;
+}
+
+.contact-title {
+    font-weight: 700;
+    font-size: 80px;
+    text-align: center;
+    line-height: 1;
+    color: var(--color-white);
+}
+
+.contact-text {
+    color: var(--blue-text);
+}
+
+.contact-text h2 {
+    margin-bottom: 6px;
+    font-family: var(--adobe-font);
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.contact-text p {
+    font-weight: 400;
+    font-size: 30px;
+}

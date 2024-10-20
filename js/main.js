@@ -5,7 +5,7 @@ const slideTwo = $('.slide-two');
 
 slideOne.owlCarousel({
     center: true,
-    loop: true,
+    loop: false,
     dots: false,
     items: 1,
     autoplay: true,
