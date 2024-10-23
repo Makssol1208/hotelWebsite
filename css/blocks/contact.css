@@ -13,6 +13,7 @@
 
 .contact-main {
     margin-bottom: 513px;
+    color: var(--blue-text);
 }
 
 .contact-title {
@@ -37,4 +38,72 @@
 .contact-text p {
     font-weight: 400;
     font-size: 30px;
+    letter-spacing: -1px;
+}
+
+.feedback {
+    display: flex;
+    justify-content: space-between;
+    margin: 167px 0 167px;
+}
+
+.feedback-adress {
+    max-width: 653px;
+    font-size: 40px;
+}
+
+.feedback-adress__title {
+    margin-bottom: 100px;
+}
+
+.feedback-form label {
+    display: block;
+    font-size: 25px;
+    font-family: var(--arial-font);
+    margin-bottom: 8px;
+}
+
+.feedback-form input {
+    height: 78px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+.feedback-form textarea {
+    display: block;
+    height: 352px;
+    margin-bottom: 52px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+textarea, input {
+    border: 2px solid rgba(20, 39, 74, 0.5);
+    width: 570px;
+}
+
+.btn-form {
+    display: block;
+    float: right;
+    width: 145px;
+    padding: 25px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: var(--btn-color);
+    color: var(--color-white);
+    transition: all .2s ease-in;
+}
+
+.btn-form:hover {
+    background-color: #e0ba73dc;
+}
+
+/* MAP */
+
+.map {
+    height: 500px;
+    background-color: #aaaaaa;
 }
