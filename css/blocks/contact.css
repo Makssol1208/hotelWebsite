@@ -12,7 +12,7 @@
 }
 
 .contact-main {
-    margin-bottom: 513px;
+    margin-bottom: 413px;
     color: var(--blue-text);
 }
 
@@ -104,6 +104,18 @@ textarea, input {
 /* MAP */
 
 .map {
-    height: 500px;
-    background-color: #aaaaaa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map-title {
+    padding-bottom: 40px;
+    font-size: 40px;
+}
+
+iframe {
+    width: 60vw;
+    height: 60vh;
+    filter: invert(100%);
 }
