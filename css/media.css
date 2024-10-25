@@ -1,9 +1,25 @@
 /* Home Section */
 
 @media(max-width: 1201px) {
+    .header {
+        min-height: 825px;
+        margin-bottom: 82px;
+        background-image: linear-gradient(var(--bg-color), var(--bg-color)), url('./../img/img-layout/bg_home-1200px.webp');
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+
+    .header-nav {
+        margin-bottom: 120px;
+    }
+
     .header-nav .logo {
         width: 200px;
         height: 39px;
+    }
+
+    .hero {
+        margin-bottom: 50px;
     }
 
     .hero__title {
@@ -37,7 +53,52 @@
 
     .hero {
         max-width: 100%;
+        margin-bottom: 67px;
         text-align: center;
         align-items: center;
+    }
+}
+
+@media(max-width: 961px) {
+    .nav ul {
+        display: none;
+    }
+
+    .menu-icon-wrapper {
+        position: fixed;
+        z-index: 9;
+        top: 46px;
+        right: 30px;
+        display: flex !important;
+        width: 30px;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav.open ul {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #f5f2f2;
+        z-index: 1;
+        padding: 46px 30px;
+
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+
+        font-size: 44px;
+        font-weight: 700;
+    }
+
+    .nav ul li+li {
+        margin-left: 0;
+    }
+
+    .nav a {
+        color: var(--blue-text);
     }
 }
