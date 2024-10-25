@@ -1,0 +1,43 @@
+/* Home Section */
+
+@media(max-width: 1201px) {
+    .header-nav .logo {
+        width: 200px;
+        height: 39px;
+    }
+
+    .hero__title {
+        font-size: 35px;
+    }
+
+    .hero__main {
+        font-weight: 500;
+        line-height: 0.8;
+        font-size: 120px;
+        letter-spacing: 0.05em;
+    }
+
+    .hero__bottom {
+        font-weight: 500;
+        font-size: 40px;
+    }
+
+    .header-btn {
+        padding: 16px 20px 17px 50px;
+        margin-bottom: 50px;
+        font-size: 18px;
+    }
+
+    .header-btn::before {
+        left: 20px;
+        top: 27px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .hero {
+        max-width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+}
