@@ -20,6 +20,10 @@ body {
     font-weight: 400;
 }
 
+body._lock {
+    overflow: hidden;
+}
+
 .stt {
     position: fixed;
     width: 10px;
