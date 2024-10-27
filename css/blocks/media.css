@@ -1,11 +1,4 @@
-/* Home Section */
-
 @media(max-width: 1201px) {
-    .header {
-        margin-bottom: 82px;
-        background-image: linear-gradient(var(--bg-color), var(--bg-color)), url('./../img/img-layout/bg_home-1200px.webp');
-    }
-
     .header-nav {
         margin-bottom: 120px;
     }
@@ -106,7 +99,7 @@
 @media (max-width: 780px) {
     .header {
         width: 100%;
-        min-height: 850px;
+        min-height: 100vh;
     }
 
     .header-nav {

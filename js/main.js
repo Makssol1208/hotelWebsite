@@ -36,7 +36,7 @@ $('.carousel-btn--prev').click(function () {
 // ScrollReveal
 
 ScrollReveal({
-    reset: true,
+    reset: false,
     distance: "100px",
     duration: 2000,
     delay: 100
