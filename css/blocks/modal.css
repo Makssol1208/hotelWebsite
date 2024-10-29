@@ -1,0 +1,92 @@
+.booking-modal {
+    position: fixed;
+    z-index: 10;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    top: 0;
+    left: 0;
+
+    color: var(--blue-text);
+    backdrop-filter: blur(10px);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s linear;
+}
+
+.booking-modal.active {
+    display: none;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.3s linear;
+}
+
+.booking-modal.active .booking-modal__body {
+    transform: translateY(0);
+}
+
+.booking-modal__body {
+    max-width: 570px;
+    position: relative;
+    padding: 40px;
+    border-radius: 10px;
+
+    background-color: #e9e8e8;
+    transform: translateY(-50px);
+    transition: 0.5s linear;
+}
+
+.booking-modal__body h1 {
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.booking-modal__body {
+    font-size: 20px;
+}
+
+.modal__close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 22px;
+
+    width: 30px;
+    height: 30px;
+
+    outline: 1px solid rgb(11, 112, 11);
+    outline-offset: 3px;
+    outline-style: auto;
+    transition: outline-color .15s ease-in-out;
+    border: none;
+    border-radius: 3px;
+    padding: 0;
+    text-align: center;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.modal__input {
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 10px 0 10px 20px;
+    line-height: 20px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.modal__send {
+    margin-top: 15px;
+    padding: 10px 18px;
+    border-radius: 10px;
+    background-color: var(--blue-text);
+    color: var(--color-white);
+}

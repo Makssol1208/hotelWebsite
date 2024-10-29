@@ -4,6 +4,7 @@
 
 /* Blocks */
 @import './blocks/header.css';
+@import './blocks/header-btn.css';
 @import './blocks/home-content.css';
 @import './blocks/carousel.css';
 @import './blocks/footer.css';
@@ -12,6 +13,7 @@
 @import './blocks/rooms.css';
 @import './blocks/contact.css';
 @import './blocks/menu-icon.css';
+@import './blocks/modal.css';
 @import './blocks/media.css';
 
 

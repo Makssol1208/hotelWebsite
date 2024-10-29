@@ -5,7 +5,7 @@
 
     .header-nav .logo {
         width: 200px;
-        height: 39px;
+        height: 100px;
     }
 
     .hero {
@@ -57,7 +57,7 @@
     .menu-icon-wrapper {
         position: fixed;
         z-index: 9;
-        top: 46px;
+        top: 35px;
         right: 30px;
         display: flex !important;
         width: 30px;
@@ -97,11 +97,6 @@
 }
 
 @media (max-width: 780px) {
-    .header {
-        width: 100%;
-        min-height: 100vh;
-    }
-
     .header-nav {
         margin-bottom: 100px;
     }
@@ -137,7 +132,7 @@
 @media (max-width: 460px) {
     .header-nav .logo {
         width: 150px;
-        height: 30px;
+        height: 80px;
     }
 
     .hero__title {

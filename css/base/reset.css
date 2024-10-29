@@ -43,7 +43,7 @@ img {
 
 img, svg {
 	max-width: 100% !important;
-	height: auto !important;
+	height: auto;
 }
 
 address {

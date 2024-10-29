@@ -23,7 +23,7 @@
 
 .main-content__desc {
     max-width: 563px;
-    margin-left: 48px;
+    padding-left: 48px;
 }
 
 .main-content__desc h2 {
@@ -52,8 +52,8 @@
 }
 
 .img-wrapper img {
-    width: 866px;
-    height: 539px;
+    width: 100%;
+    max-height: 539px;
     background-size: cover;
     background-repeat: no-repeat;
 }
