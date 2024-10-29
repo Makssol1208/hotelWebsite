@@ -47,6 +47,10 @@
         text-align: center;
         align-items: center;
     }
+
+    .header-bottom h2 {
+        margin-bottom: 50px;
+    }
 }
 
 @media(max-width: 981px) {
@@ -165,7 +169,7 @@
 
     .header-bottom h2 {
         font-size: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 76px;
     }
 
     .header-bottom img {
