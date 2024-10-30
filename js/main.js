@@ -39,7 +39,8 @@ ScrollReveal({
     reset: false,
     distance: "100px",
     duration: 2000,
-    delay: 100
+    delay: 100,
+    mobile: false
 });
 
 ScrollReveal().reveal('.hero__title', { delay: 400, origin: "left" });
