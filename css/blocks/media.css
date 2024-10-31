@@ -1,3 +1,27 @@
+@media(max-width: 1281px) {
+    .main-title {
+        margin-bottom: 73px;
+        font-size: 30px;
+    }
+
+    .main-content__desc h2 {
+        margin-bottom: 22px;
+        font-weight: 500;
+        font-size: 50px;
+    }
+
+    .main-content__text {
+        font-size: 20px;
+        line-height: 1.6;
+    }
+
+    .btn {
+        max-width: 160px;
+        padding: 15px 35px;
+        font-size: 16px;
+    }
+}
+
 @media(max-width: 1201px) {
     .header-nav {
         margin-bottom: 120px;
@@ -53,6 +77,16 @@
     }
 }
 
+@media(max-width: 1099px) {
+    .img-wrapper img {
+        min-width: 440px;
+    }
+
+    .main-content {
+        gap: 60px;
+    }
+}
+
 @media(max-width: 981px) {
     .nav ul {
         display: none;
@@ -98,6 +132,57 @@
     .nav a {
         color: var(--blue-text);
     }
+
+    .main-title {
+        margin-bottom: 65px;
+        font-size: 25px;
+        padding: 0 15px;
+    }
+
+    .main-content {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .main-content__desc {
+        padding-left: 0;
+        max-width: 615px;
+    }
+
+    .main-content__desc::before {
+        display: none;
+    }
+
+    .main-content__desc h2 {
+        font-size: 38px;
+    }
+
+    .main-content__text {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+}
+
+@media(max-width: 840px) {
+    .carousel-title {
+        font-size: 26px;
+        padding-bottom: 20px;
+    }
+
+    .carousel-quote {
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+
+    .carousel-user {
+        font-size: 20px;
+        padding-bottom: 18px;
+    }
+
+    .carousel-btn {
+        width: 38px;
+        height: 38px;
+    }
 }
 
 @media (max-width: 780px) {
@@ -130,6 +215,29 @@
 
     .header-btn {
         margin-bottom: 70px;
+    }
+
+    .main-content {
+        gap: 45px;
+    }
+
+    .main-content__desc h2 {
+        margin-bottom: 16px;
+    }
+
+    .main-content__text {
+        margin-bottom: 18px;
+    }
+
+    .img-wrapper img {
+        min-width: 0;
+    }
+}
+
+@media(max-width: 666px) {
+    .main-title {
+        max-width: 650px;
+        margin-bottom: 50px;
     }
 }
 
@@ -164,7 +272,7 @@
     }
 
     .header-btn {
-        margin-bottom: 80px;
+        margin-bottom: 120px;
     }
 
     .header-bottom h2 {
@@ -200,5 +308,27 @@
         font-size: 18px;
         width: 25px;
         height: 25px;
+    }
+
+    .main-title {
+        font-size: 20px;
+    }
+
+    .main-content__desc h2 {
+        font-size: 28px;
+    }
+
+    .main-content__text {
+        font-size: 16px;
+    }
+
+    .btn {
+        max-width: 100px;
+        padding: 10px 22px;
+        font-size: 12px;
+    }
+
+    .carousel-quote {
+        font-size: 20px;
     }
 }

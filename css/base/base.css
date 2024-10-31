@@ -46,6 +46,7 @@ body._lock {
 .btn {
     display: block;
     width: 236px;
+    text-align: center;
     padding: 20px 65px;
     font-size: 20px;
     letter-spacing: 0.05em;

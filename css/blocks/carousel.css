@@ -7,6 +7,10 @@
     color: var(--blue-text);
 }
 
+.carousel-wrapper {
+    padding: 0 15px;
+}
+
 .carousel-title {
     font-size: 30px;
     font-family: var(--adobe-font);
