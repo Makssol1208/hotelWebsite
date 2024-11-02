@@ -295,6 +295,14 @@
     }
 }
 
+@media (max-width: 520px) {
+    .footer-menu {
+        display: flex;
+        flex-direction: column;
+        padding: 67px 0 40px;
+    }
+}
+
 @media (max-width: 460px) {
     .header-nav .logo {
         width: 150px;
