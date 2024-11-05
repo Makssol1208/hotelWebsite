@@ -23,15 +23,6 @@
     background: linear-gradient(var(--bg-color), var(--bg-color));
 }
 
-@media 
-(-webkit-min-device-pixel-ratio: 2),
-(min-resolution: 192dpi) {
-    .header {
-        background-image: url('./../../img/home/bg_home@2x.jpg');
-        background-size: cover;
-    }
-}
-
 .bg-img {
     z-index: -1;
     position: absolute;
