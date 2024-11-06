@@ -338,6 +338,10 @@
         min-height: 15px;
         padding-top: 12px;
     }
+
+    .facilities-wrapper {
+        gap: 80px;
+    }
 }
 
 @media (max-width: 520px) {
@@ -441,6 +445,10 @@
         max-width: 100px;
         padding: 10px 22px;
         font-size: 12px;
+    }
+
+    .facilities-wrapper {
+        gap: 50px;
     }
 
     .carousel-quote {
