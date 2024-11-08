@@ -10,7 +10,7 @@ slideOne.owlCarousel({
     items: 1,
     autoplay: false,
     autoplaySpeed: 1000,
-    navContainer: '.room__wrapper .slide-one-nav',
+
     dots: true,
 });
 

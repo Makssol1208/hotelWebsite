@@ -40,7 +40,7 @@ body._lock {
 }
 
 .none {
-    display: none;
+    display: none !important;
 }
 
 .btn {

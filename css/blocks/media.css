@@ -54,6 +54,19 @@
     .facilities-wrapper {
         gap: 140px;
     }
+
+    .rooms__title {
+        margin-bottom: 62px;
+    }
+
+    .rooms__title h3 {
+        margin-bottom: 24px;
+        font-size: 45px;
+    }
+
+    .rooms__title p {
+        font-size: 20px;
+    }
 }
 
 @media(max-width: 1201px) {
