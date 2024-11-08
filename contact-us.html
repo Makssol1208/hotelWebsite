@@ -7,13 +7,11 @@
     <title>Hotel Website</title>
     <!-- Styles -->
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/base/reset.css">
     <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:regular,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular">
     <link rel="stylesheet" href="./fonts/AdobeGarmond/stylesheet.css">
     <link rel="stylesheet" href="./fonts/Arial/stylesheet.css">
-    <!-- ./Fonts -->
 </head>
 
 <body>
@@ -26,13 +24,16 @@
                 <a href="#!">
                     <img src="./img/logo.svg" class="logo" alt="Logo">
                 </a>
-                <div class="nav">
+                <div class="nav open">
                     <ul>
                         <li><a href="./index.html">Home</a></li>
                         <li><a href="./facilities.html" class="transition">Facilities</a></li>
                         <li><a href="./rooms.html" class="transition">Rooms</a></li>
-                        <li><a href="#Contact-us" class="transition">Contact-us</a></li>
+                        <li><a href="#!" class="transition">Contact-us</a></li>
                     </ul>
+                    <div class="menu-icon-wrapper">
+                        <div class="menu-icon"></div>
+                    </div>
                 </div>
             </div>
             <h2 class="contact-title">CONTACT-US</h2>
@@ -51,7 +52,7 @@
 
             <!-- FEEDBACK SECTION -->
 
-            <section class="feedback">
+            <section class="feedback none">
                 <div class="feedback-adress">
                     <div class="feedback-adress__title">
                         497 Evergreen Rd. Roseville,<br>
@@ -80,7 +81,7 @@
 
             <!-- MAP -->
 
-            <section class="map">
+            <section class="map none">
                 <div class="map-header">
                     <h2 class="map-title">View map</h2>
                 </div>
@@ -97,7 +98,7 @@
 
     <!-- FOOTER -->
 
-    <footer class="footer">
+    <footer class="footer none">
         <div class="footer-nav">
             <div class="container-footer">
                 <div class="footer-menu">
@@ -147,6 +148,7 @@
     <div class='stt stt__block_black'></div>
 
     <script src="./js/scrollToTop-min.js"></script>
+    <script src="./js/mobile-nav.js"></script>
 </body>
 
 </html>

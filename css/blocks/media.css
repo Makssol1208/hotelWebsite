@@ -67,6 +67,48 @@
     .rooms__title p {
         font-size: 20px;
     }
+
+    .room_bottom-wrapper {
+        padding: 50px 124px;
+    }
+
+    .room_variant h1 {
+        padding-top: 31px;
+        padding-bottom: 31px;
+        font-weight: 500;
+        font-size: 40px;
+    }
+
+    .left__block img {
+        width: 40px;
+        min-height: 40px;
+    }
+
+    .left__block h3 {
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .btn-price {
+        padding: 16px 30px;
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .contact-title {
+        font-weight: 700;
+        font-size: 55px;
+    }
+
+    .contact-text h2 {
+        font-size: 46px;
+    }
+
+    .contact-text p {
+        font-size: 25px;
+        letter-spacing: -0.5px;
+        line-height: 1.4;
+    }
 }
 
 @media(max-width: 1201px) {
@@ -230,6 +272,19 @@
         width: 350px;
         min-height: 20px;
     }
+
+    .rooms__title {
+        margin-bottom: 30px;
+    }
+
+    .rooms__title h3 {
+        margin-bottom: 10px;
+        font-size: 35px;
+    }
+
+    .rooms__title p {
+        font-size: 16px;
+    }
 }
 
 @media(max-width: 840px) {
@@ -256,6 +311,12 @@
     .img-wrapper {
         width: 100%;
     }
+
+    .room_bottom-wrapper {
+        flex-direction: column;
+        row-gap: 30px;
+        padding: 30px 0;
+    }
 }
 
 @media (max-width: 780px) {
@@ -264,7 +325,7 @@
     }
 
     .hero {
-        margin-bottom: 140px;
+        margin-bottom: 180px;
     }
 
     .hero__title {
@@ -287,7 +348,7 @@
     }
 
     .header-btn {
-        margin-bottom: 70px;
+        margin-bottom: 40px;
     }
 
     .main-content {
@@ -305,6 +366,25 @@
     .img-wrapper img {
         min-width: 0;
     }
+
+    .room_variant h1 {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-size: 32px;
+    }
+
+    .left__block {
+        gap: 25px;
+    }
+
+    .owl-dots {
+        bottom: 15px;
+    }
+
+    .owl-dot {
+        width: 15px;
+        height: 15px;
+    }
 }
 
 @media (max-width: 720px) {
@@ -320,6 +400,29 @@
     .mail-btn {
         padding: 14px 23px 14px 21px;
     }
+
+    .left__block {
+        gap: 20px;
+    }
+
+    .left__block img {
+        width: 30px;
+        min-height: 30px;
+    }
+
+    .left__block h3 {
+        font-size: 18px;
+    }
+
+    .btn-price {
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+
+    .room_bottom-wrapper {
+        row-gap: 20px;
+        padding: 20px 0;
+    }
 }
 
 @media(max-width: 666px) {
@@ -329,11 +432,19 @@
     }
 
     .footer-menu {
-        gap: 50px 30px;
+        gap: 40px 30px;
+    }
+
+    .footer-menu__list li+li {
+        margin-top: 12px;
     }
 
     .footer-socials__img {
         gap: 12px;
+    }
+
+    .footer-socials__items a + a{
+        padding-top: 15px;
     }
 
     .footer-mail__input input {
@@ -355,13 +466,17 @@
     .facilities-wrapper {
         gap: 80px;
     }
+
+    .room__wrapper {
+        outline: 1px solid var(--blue-text);
+    }
 }
 
 @media (max-width: 520px) {
     .footer-menu {
         display: flex;
         flex-direction: column;
-        padding: 67px 0 40px;
+        padding: 52px 0 40px;
     }
 
     .facilities__img::before {
@@ -369,6 +484,53 @@
         width: 180px;
         min-height: 15px;
         padding-top: 8px;
+    }
+
+    .header {
+        margin-bottom: 40px;
+    }
+
+    .rooms__title h3 {
+        font-size: 25px;
+    }
+
+    .rooms__title p {
+        font-size: 14px;
+    }
+
+    .room_variant h1 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 22px;
+    }
+
+    .owl-dots {
+        bottom: 8px;
+    }
+
+    .owl-dot {
+        width: 10px;
+        height: 10px;
+        border: 1px solid #fff !important;
+    }
+
+    .owl-dot+.owl-dot {
+        margin-left: 12px;
+    }
+
+    .left__block img {
+        width: 24px;
+        min-height: 24px;
+    }
+
+    .left__block h3 {
+        font-size: 15px;
+    }
+
+    .btn-price {
+        font-weight: 600;
+        font-size: 14px;
+        padding: 12px 16px;
     }
 }
 
@@ -403,7 +565,7 @@
     }
 
     .header-btn {
-        margin-bottom: 120px;
+        margin-bottom: 80px;
     }
 
     .header-bottom h2 {
@@ -469,7 +631,24 @@
     }
 
     .slider {
-        margin-top: 80px;
-        margin-bottom: 140px;
+        margin-top: 90px;
+        margin-bottom: 130px;
+    }
+
+    .container {
+        gap: 50px;
+    }
+}
+
+@media (max-width: 420px) {
+    .room_variant h1 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .room_bottom-wrapper {
+        row-gap: 10px;
+        padding: 15px 0px;
     }
 }
