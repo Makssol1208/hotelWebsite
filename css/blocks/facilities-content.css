@@ -40,6 +40,15 @@
     display: block;
     width: 100% !important;
     cursor: pointer;
+    transform: scale3d(1, 1, 1);
+    transition: transform 1s ease-in-out;
+}
+
+.facilities-img:hover,
+.facilities-img:focus,
+.facilities__img::before {
+    transform: scale3d(1.08, 1.08, 1);
+    transition: transform 1s ease-in-out;
 }
 
 .facilities__img::before {
@@ -65,8 +74,4 @@
     background-color: var(--color-white);
     cursor: pointer;
     transition: all 0.2s ease-in;
-}
-
-.facilities__img:hover::before {
-    color: #14274abe;
 }

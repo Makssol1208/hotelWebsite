@@ -8,6 +8,11 @@
         width: 610px;
         min-height: 48px;
     }
+
+    .feedback-adress {
+        max-width: 653px;
+        font-size: 32px;
+    }
 }
 
 @media(max-width: 1281px) {
@@ -109,6 +114,39 @@
         letter-spacing: -0.5px;
         line-height: 1.4;
     }
+
+    .feedback {
+        margin: 140px 0;
+    }
+
+    .feedback-adress {
+        font-size: 28px;
+    }
+
+    .feedback-form label {
+        font-size: 20px;
+        margin-bottom: 6px;
+    }
+
+    .feedback-form input {
+        width: 470px;
+        height: 62px;
+        font-size: 20px;
+    }
+
+    .feedback-form textarea {
+        width: 470px;
+        height: 200px;
+        margin-bottom: 45px;
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .btn-form {
+        width: 130px;
+        padding: 20px;
+        font-size: 18px;
+    }
 }
 
 @media(max-width: 1201px) {
@@ -116,7 +154,7 @@
         margin-bottom: 120px;
     }
 
-    .header-nav .logo {
+    .header-nav .logo,.header-nav__contact .logo {
         width: 200px;
         height: 100px;
     }
@@ -183,6 +221,47 @@
     .footer-mail p {
         padding-bottom: 15px;
     }
+
+    .contact-main {
+        margin-bottom: 300px;
+    }
+
+    .feedback-adress {
+        font-size: 22px;
+    }
+
+    .feedback-form label {
+        font-size: 17px;
+        margin-bottom: 4px;
+    }
+
+    .feedback-form input {
+        width: 370px;
+        height: 42px;
+        font-size: 18px;
+    }
+
+    .feedback-form textarea {
+        width: 370px;
+        height: 150px;
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+
+    .btn-form {
+        width: 110px;
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .map-title {
+        font-size: 32px;
+    }
+
+    iframe {
+        width: 80vw;
+        height: 60vh;
+    }
 }
 
 @media(max-width: 981px) {
@@ -209,7 +288,7 @@
         left: 0;
         right: 0;
 
-        background-color: #bbcbeb;
+        background-color: #c0d1f3;
         z-index: 8;
         padding: 46px 30px;
 
@@ -264,6 +343,15 @@
         width: 75%;
     }
 
+    .header__contact {
+        min-height: 420px;
+        margin-bottom: 160px;
+    }
+
+    .header-nav__contact {
+        margin-bottom: 90px;
+    }
+
 }
 
 @media(max-width: 911px) {
@@ -284,6 +372,10 @@
 
     .rooms__title p {
         font-size: 16px;
+    }
+
+    .feedback-adress__title {
+        margin-bottom: 50px;
     }
 }
 
@@ -317,6 +409,25 @@
         row-gap: 30px;
         padding: 30px 0;
     }
+
+    .feedback {
+        margin: 100px 0;
+        flex-direction: column;
+        row-gap: 50px;
+    }
+
+    .feedback-form input {
+        margin-bottom: 12px;
+    }
+
+    .btn-form {
+        float: left;
+    }
+
+    iframe {
+        height: 48vh;
+    }
+
 }
 
 @media (max-width: 780px) {
@@ -384,6 +495,20 @@
     .owl-dot {
         width: 15px;
         height: 15px;
+    }
+
+    .contact-main {
+        margin-bottom: 220px;
+    }
+
+    .contact-text h2 {
+        font-size: 36px;
+    }
+
+    .contact-text p {
+        font-size: 20px;
+        letter-spacing: -0.6px;
+        line-height: 1.5;
     }
 }
 
@@ -470,6 +595,15 @@
     .room__wrapper {
         outline: 1px solid var(--blue-text);
     }
+
+    .contact-title {
+        font-weight: 700;
+        font-size: 45px;
+    }
+
+    .header__contact {
+        margin-bottom: 120px;
+    }
 }
 
 @media (max-width: 520px) {
@@ -518,6 +652,10 @@
         margin-left: 12px;
     }
 
+    .contact-main {
+        margin-bottom: 240px;
+    }
+
     .left__block img {
         width: 24px;
         min-height: 24px;
@@ -532,10 +670,18 @@
         font-size: 14px;
         padding: 12px 16px;
     }
+
+    .feedback-adress {
+        font-size: 18px;
+    }
+
+    .feedback-adress__title {
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 460px) {
-    .header-nav .logo {
+    .header-nav .logo,.header-nav__contact .logo {
         width: 150px;
         height: 80px;
     }
@@ -638,6 +784,20 @@
     .container {
         gap: 50px;
     }
+
+    .header__contact {
+        min-height: 380px;
+        margin-bottom: 100px;
+    }
+
+    .contact-text h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .contact-text p {
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 420px) {
@@ -650,5 +810,74 @@
     .room_bottom-wrapper {
         row-gap: 10px;
         padding: 15px 0px;
+    }
+
+    .contact-main {
+        margin-bottom: 180px;
+    }
+
+    .feedback {
+        margin: 60px 0 90px;
+        row-gap: 30px;
+    }
+
+    .feedback-adress {
+        font-size: 16px;
+    }
+
+    .feedback-form input {
+        width: 90vw;
+        height: 38px;
+        font-size: 16px;
+        padding-left: 10px;
+    }
+
+    .feedback-form textarea {
+        width: 90vw;
+        height: 120px;
+        margin-bottom: 15px;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .btn-form {
+        width: 100px;
+        font-weight: 500;
+        font-size: 17px;
+        padding: 11px 15px;
+    }
+
+    .map-title {
+        font-size: 26px;
+        padding-bottom: 30px;
+    }
+
+    iframe {
+        width: 85vw;
+        height: 50vh;
+        filter: invert(0%);
+    }
+}
+
+@media (max-width: 380px) {
+    .header-nav__contact {
+        margin-bottom: 110px;
+    }
+
+    .header__contact {
+        margin-bottom: 70px;
+    }
+
+    .contact-text {
+        text-align: center;    
+    }
+
+    .contact-title {
+        font-weight: 500;
+        font-size: 35px;
+    }
+
+    .contact-text h2 {
+        font-size: 24px;
     }
 }

@@ -44,6 +44,7 @@
 .feedback {
     display: flex;
     justify-content: space-between;
+    align-items: self-start;
     margin: 167px 0 167px;
 }
 
@@ -115,7 +116,7 @@ textarea, input {
 }
 
 iframe {
-    width: 60vw;
-    height: 60vh;
+    width: 70vw;
+    height: 70vh;
     filter: invert(100%);
 }
